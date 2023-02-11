@@ -31,12 +31,13 @@ module.exports = {
       250,
     ],
     'no-multiple-empty-lines': [
-      2,
+      "error",
       {
-        max: 99999,
+        max: 1,
         maxEOF: 0,
       },
     ],
+    'eol-last':0,
     'no-underscore-dangle': [
       'error',
       {
