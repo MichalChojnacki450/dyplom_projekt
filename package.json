@@ -10,7 +10,8 @@
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev ",
     "build": "next build",
     "start": "next start --openssl-legacy-provider",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "mocha test/**/**.js"
   },
   "dependencies": {
     "graphql": "^15.8.0",
